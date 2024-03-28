@@ -20,7 +20,7 @@ else:
     API_ID = 1747534
     API_HASH = "5a2684512006853f2e48aca9652d83ea"
     BOT_TOKEN = "7080419510:AAGga5Kfmhde42IVbhBejdJ1YLoIqbst6LM"
-    DATABASE_URL = ""
+    DATABASE_URL = "postgres://krmmyqwuosmyqs:1ff5186e32a3e92a5f0ce719f6451ac0273614af6bd23f93f1a75ab84cd9ba52@ec2-44-213-151-75.compute-1.amazonaws.com:5432/dd12dm8da1ivpc"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
